@@ -1,0 +1,25 @@
+.foo {
+    border: none;
+}
+
+.Bar {
+    color: red;
+    @extend %error;
+    color: #f00;
+}
+.barry {
+
+}
+
+button {
+    padding: 0.5em;
+}
+
+.foo {
+    padding: .5em;
+}
+
+h1, h2, h3{
+    padding : 1.0em;
+    margin:  0 0 0 0px
+}

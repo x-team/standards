@@ -1,0 +1,31 @@
+.foo {
+    // prefer `border: 0` over `border: none`
+    border: 0;
+
+    // merged from duplicate selector
+    padding: .5em;
+}
+
+// lowercase classnames
+.bar {
+    // @extend should come at the start
+    @extend %error;
+    // use uppercase hex colors instead of color names
+    color: #F00;
+}
+
+button {
+    // avoid leading zeroes in fractions
+    padding: .5em;
+}
+
+// one selector per line, and space before the brace
+h1,
+h2,
+h3 {
+    // one space after colon, shorthand "0" instead of "0 0 0 0", and trailing semicolon
+    margin: 0;
+
+    // no space before the comma, and use "1em" instead of "1.0em"
+    padding: 1em;
+}
