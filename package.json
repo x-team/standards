@@ -1,0 +1,23 @@
+{
+  "name": "standards",
+  "version": "0.0.0",
+  "description": "Standards for all of the x-teams",
+  "dependencies": {
+    "editorconfig": "~0.11.4",
+    "jshint": "~2.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/x-team/standards.git"
+  },
+  "author": "joshwnj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/x-team/standards/issues"
+  },
+  "homepage": "https://github.com/x-team/standards"
+}
