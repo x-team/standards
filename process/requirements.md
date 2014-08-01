@@ -18,7 +18,7 @@ Write acceptance tests to clarify requirements
 ----
 
 - requirements often come in the form of _"As a user I want to ..."_. This can be useful but often leaves a lot of detail to interpretation.
-- by writing acceptance tests (in a format like [end-user-tests](./end-user-tests/README.md)) we start describing in more definite terms how the software works under realistic conditions.
+- by writing acceptance tests (in a format like [end-user-tests](../end-user-tests/README.md)) we start describing in more definite terms how the software works under realistic conditions.
 - the acceptance test can be automated, but even if it is executed manually it gives a tangible way to prove whether requirements have been fulfilled or not.
 - it can be helpful to make developers responsible for writing the acceptance tests, then have a product owner review and confirm it. This forms a communication loop and helps isolate any misunderstandings on either side.
 
