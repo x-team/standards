@@ -1,0 +1,24 @@
+#!/bin/sh
+## source: http://stackoverflow.com/questions/15703065/github-setup-pre-commit-hook-jshint
+
+files=$(git diff --cached --name-only --diff-filter=ACM -- *.js **/*.js)
+if [ "$files" = "" ]; then
+   exit 0
+fi
+
+pass=true
+
+for file in ${files}; do
+    result=$(jshint ${file})
+    if [ "$result" != "" ]; then
+        echo $result
+        pass=false
+    fi
+done
+
+if $pass; then
+    exit 0
+else
+    echo "Commit failed, please fix the errors and try again.\n"
+    exit 1
+fi
