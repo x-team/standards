@@ -12,6 +12,7 @@ Contents
 ----
 
 - [.editorconfig](./.editorconfig): general editor settings.
+- [documentation](./documentation): recommendations for writing technical documentation.
 - [end-user-tests](./end-user-tests): recommended format for writing end-user tests.
 - [js](./js): jshint settings for validating js files.
 - [process](./process): various process guidelines.
