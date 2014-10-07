@@ -15,4 +15,5 @@ Contents
 - [documentation](./documentation): recommendations for writing technical documentation.
 - [end-user-tests](./end-user-tests): recommended format for writing end-user tests.
 - [js](./js): jshint settings for validating js files.
+- [file naming](./file-naming.md): standards for naming files and directories.
 - [process](./process): various process guidelines.
