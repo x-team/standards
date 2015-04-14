@@ -3,7 +3,7 @@
     border: 0;
 
     // merged from duplicate selector
-    padding: .5em;
+    padding: 0.5em;
 }
 
 // lowercase classnames
@@ -15,8 +15,8 @@
 }
 
 button {
-    // avoid leading zeroes in fractions
-    padding: .5em;
+    // use leading zeroes in fractions
+    padding: 0.5em;
 }
 
 // one selector per line, and space before the brace
