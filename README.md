@@ -17,3 +17,6 @@ Contents
 - [js](./js): jshint settings for validating js files.
 - [file naming](./file-naming.md): standards for naming files and directories.
 - [process](./process): various process guidelines.
+
+Maintained by the [developers at x-team](https://www.x-team.com) | [developer blog](https://www.x-team.com/blog/)
+
